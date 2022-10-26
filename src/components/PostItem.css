@@ -1,0 +1,33 @@
+.post {
+  border: 3px solid rgb(232, 156, 220);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.post-item {
+  display: flex;
+  justify-content: space-between;
+}
+.post-item h4 {
+  color: rgb(195, 87, 163);
+  text-align: start;
+}
+.post-item p {
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(188, 252, 105);
+  color: #0a0a0a;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.post img {
+  width: 200px;
+  margin: 30px;
+  border: 1px solid rgb(3, 2, 2);
+  border-radius: 50% 20px 3rem;
+}
